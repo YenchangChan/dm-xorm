@@ -9,7 +9,7 @@ import (
 	"fmt"
 	_ "gitee.com/chunanyong/dm" // google's odbc driver
 	"github.com/go-xorm/xorm"
-	_ "github.com/sjm1327605995/dm-xorm"
+	_ "github.com/YenchangChan/dm-xorm"
 	"xorm.io/core"
 )
 

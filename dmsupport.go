@@ -548,7 +548,7 @@ func (db *dm) IsReserved(name string) bool {
 
 
 func (db *dm) Quote(name string) string {
-	return "\"" + name + "\""
+	return name
 }
 
 func (db *dm) SupportEngine() bool {
